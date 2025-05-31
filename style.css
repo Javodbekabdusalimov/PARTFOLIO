@@ -1,0 +1,383 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: burlywood;
+}
+header .nav {
+  width: 100%;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 120px;
+  flex-wrap: wrap;
+}
+.nav h1 {
+  color: white;
+}
+.a__father a {
+  text-decoration: none;
+  color: white;
+}
+.a__father {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 120px;
+  gap: 20px;
+}
+.container .wrapper {
+  width: 100%;
+
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+.wrapper .left__side {
+  width: 50%;
+  height: 620px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0px;
+  color: white;
+  justify-content: center;
+  gap: 20px;
+  align-items: start;
+}
+.wrapper .left__side button {
+  width: 176.58999633789062px;
+  height: 45px;
+  box-shadow: 0px 0px 10px 0px #00eeff;
+  background-color: #00eeff;
+  border: 1px solid #00eeff;
+  color: white;
+  font-size: 20px;
+
+  border-radius: 40px;
+}
+.wrapper .left__side button:hover {
+  background-color: white;
+  color: blue;
+}
+.wrapper .left__side button:active {
+  box-shadow: 0px 0px 10px 0px #00eeff;
+  background-color: #00eeff;
+  border: 1px solid #00eeff;
+  color: white;
+  font-size: 20px;
+}
+.wrapper .right__side {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  height: 620px;
+  justify-content: start;
+}
+.wrapper .right__side img {
+  width: 100%;
+  height: 100%;
+}
+.wrapper .card {
+  width: 30%;
+  background: burlywood;
+  box-shadow: 2px 2px 5px 3px grey;
+  height: 40%;
+  border-radius: 20px;
+  border-width: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 10px 20px;
+  color: white;
+
+  align-items: center;
+}
+.wrapper .card button {
+  width: 50%;
+  height: 40px;
+  background-color: burlywood;
+  box-shadow: 2px 2px 3px 2px grey;
+  border-radius: 40px;
+  border: 1px solid burlywood;
+}
+.wrapper .card button:hover {
+  background-color: grey;
+  color: burlywood;
+}
+.wrapper .card button:active {
+  background-color: burlywood;
+  box-shadow: 2px 2px 3px 2px grey;
+  border-radius: 40px;
+  border: 1px solid burlywood;
+}
+.box__father {
+  width: 100%;
+  display: flex;
+  padding: 0px 120px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.box {
+  width: 30%;
+  height: 251.6699981689453px;
+  background-color: white;
+
+  border-radius: 20px;
+}
+.box img {
+  width: 100%;
+  height: 100%;
+}
+form {
+  width: 700px;
+  height: 502px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  justify-content: center;
+}
+.wrapper {
+  display: flex;
+
+  gap: 14px;
+}
+.kichikina {
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid grey;
+  width: 343px;
+  height: 55px;
+  color: grey;
+  background-color: transparent;
+  font-size: 20px;
+}
+.katta {
+  border: 1px solid grey;
+  border-bottom: 1px solid grey;
+  border-radius: 8px;
+  outline: none;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  padding-bottom: 160px;
+  padding-left: 20px;
+  width: 100%;
+  height: 200px;
+  color: grey;
+  background-color: transparent;
+  font-size: 20px;
+}
+.ohiri {
+  width: 30%;
+  height: 40px;
+  background-color: burlywood;
+  box-shadow: 2px 2px 3px 2px grey;
+  border-radius: 40px;
+  border: 1px solid burlywood;
+}
+.ohiri:hover {
+  background-color: grey;
+  color: burlywood;
+}
+.ohiri:active {
+  background-color: burlywood;
+  box-shadow: 2px 2px 3px 2px grey;
+  border-radius: 40px;
+  border: 1px solid burlywood;
+}
+.foot {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 120px;
+  align-items: center;
+  height: 50px;
+  border-top: 3px solid grey;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .box {
+    width: 30%;
+  }
+
+  .wrapper .box__father {
+    width: 100%;
+    display: flex;
+  }
+
+  .wrapper img {
+    width: 50%;
+    height: 50%;
+  }
+  .katta {
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid grey;
+    width: 343px;
+    height: 55px;
+    padding: 0px 0px;
+    padding-bottom: 0;
+    color: grey;
+    background-color: transparent;
+    font-size: 20px;
+    border-radius: 0px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  .box img {
+    width: 100%;
+    height: 100%;
+  }
+  .wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .right__side img {
+    width: 100%;
+  }
+  .container .right__side {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  body .container {
+    padding: 5px 10px;
+  }
+
+  .container .left__side {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  form .kichikina {
+    width: 100%;
+  }
+  form .katta {
+    width: 100%;
+  }
+  .wrapper form {
+    width: 100%;
+  }
+  .wrapper form button {
+    width: 100%;
+  }
+  .wrapper .box__father {
+    width: 100%;
+  }
+  .wrapper .box__father .box {
+    width: 45%;
+  }
+  .container .wrapper {
+    display: flex;
+
+    flex-wrap: wrap;
+    padding: 0px 20px;
+  }
+  .wrapper .card {
+    width: 45%;
+  }
+}
+@media (max-width: 430px) {
+  .container .foot {
+    display: none;
+  }
+  .box {
+    width: 50%;
+  }
+  .box__father {
+    padding: 0px 0px;
+    display: flex;
+  }
+  .wrapper {
+    padding: 0px 0px;
+  }
+  .wrapper img {
+    width: 50%;
+    height: 50%;
+  }
+  .katta {
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid grey;
+    width: 343px;
+    height: 55px;
+    padding: 0px 0px;
+    padding-bottom: 0;
+    color: grey;
+    background-color: transparent;
+    font-size: 20px;
+    border-radius: 0px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  .box img {
+    width: 100%;
+    height: 100%;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .wrapper div {
+    width: 100%;
+  }
+  .right__side img {
+    width: 100%;
+  }
+  .container .right__side {
+    width: 100%;
+  }
+  .wrapper .card {
+    width: 100%;
+  }
+  body .container {
+    padding: 5px 10px;
+  }
+  .container .wrapper {
+    gap: 30px;
+  }
+  .container .left__side {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .foot p {
+    display: none;
+  }
+  form .kichikina {
+    width: 100%;
+  }
+  form .katta {
+    width: 100%;
+  }
+  .wrapper form {
+    width: 100%;
+  }
+  .wrapper form button {
+    width: 100%;
+  }
+  .nav .a__father {
+    display: none;
+  }
+}
